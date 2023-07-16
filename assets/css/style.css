@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300;500&display=swap');
+body {
+    background-color: rgba(131, 176, 113, 0.984);
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Cookie', cursive;
+	margin: 5px 0 5px;
+}
+.bg-img {
+	background-image: url('../images/Garden.jpg ');
+	min-height: 300px;
+	max-width: 100%;
+	height: auto;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.container {
+	position: absolute;
+	margin: 20px;
+	width: auto;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+#main_heading {
+	font-size: 60px;
+	margin: 125px auto;
+	color: #f8f8f8;
+	padding: 5px 10px;
+	position: absolute;
+	background-color: rgba(74, 137, 51, 0.4);
+}
+.topnav {
+	background-color: rgba(100, 126, 90, 0.984);
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	display: inline;
+	color: #f8f8f8;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.topnav a:hover {
+	background-color: #0d3a0c;
+	
+}
+
+.topnav a.active {
+	background-color: #0d3a0c;
+	color: #f8f8f8;
+}
+
+.topnav .icon {
+	display: none;
+}
+/* About Section */
+
+
+#home_container h2 {
+	font-size: 60px;
+	color: #0d3a0c;
+	text-align: center;
+}
+
+#home_container {
+	font-size: 18px;
+	text-align: center;
+	color: #0d3a0c;
+	padding: 20px 20px 5px 20px;
+}
+
+.sub_heading {
+	color: #0d3a0c;
+	text-align: center;
+	max-width: -webkit-fit-content;
+	max-width: -moz-fit-content;
+	max-width: fit-content;
+	display: block;
+	font-size: 30px;
+	margin: 5px auto 5px auto;
+}
+
+.health-link {
+	color: #0d3a0c;
+}
+
+.health-link:hover {
+	background-color: #0d3a0c;
+	color: #f8f8f8;
+}
+/* Code for Health Tips found here:*/
+
+.bg-grow {
+	background-image: url('../images/Grow.jpg ');
+	min-height: 200px;
+	max-width: 100%;
+	height: auto;
+    background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#health_tips {
+	font-family: 'cookie', cursive;
+	text-align: center;
+}
+
+
+	
+
+#health_tips {
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #0d3a0c;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    color: #0d3a0c;
+    width: 70%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+
+    width: 70%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.right-about-heading h2 {
+    color: #0d3a0c;
+    text-align: right;
+}
+
+#welcome {
+    font-size: 50px;
+	font-family: 'Cookie', cursive;
+	text-align: center;
+	color: #0d3a0c;
+	margin-top: 30px;
+	padding: 10px 10px 15px 10px;
+
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('/assets/images/health.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* Code for form found here:*/
+#stay_in_touch {
+	position: relative;
+}
+
+.form {
+	font-family: 'Raleway', serif;
+	font-size: 15px;
+}
+
+.form__group {
+	border: solid 1px #f8f8f8;
+}
+
+.newsletter_form {
+	width: 90%;
+	max-width: 340px;
+	margin: 5vh auto;
+}
+
+.newsletter_form_header {
+	text-align: center;
+	opacity: 0;
+	-webkit-transform: translate3d(0, 500px, 0);
+	transform: translate3d(0, 500px, 0);
+	-webkit-animation: arrive 500ms ease-in-out 0.7s forwards;
+	animation: arrive 500ms ease-in-out 0.7s forwards;
+	margin: 20px
+}
+
+#form_heading {
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+}
+
+.form_title {
+	font-size: 15px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	color: #0d3a0c;
+	font-family: 'Raleway', serif;
+}
+
+.form {
+	margin-top: 15px;
+	border-radius: 6px;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transform: translate3d(0, 500px, 0);
+	transform: translate3d(0, 500px, 0);
+	-webkit-animation: arrive 500ms ease-in-out 0.9s forwards;
+	animation: arrive 500ms ease-in-out 0.9s forwards;
+}
+
+.form--no {
+	-webkit-animation: NO 1s ease-in-out;
+	animation: NO 1s ease-in-out;
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.form__input {
+    color: #f8f8f8;
+	display: block;
+	width: 100%;
+	padding: 20px;
+	font-family: 'raleway', serif;
+	-webkit-appearance: none;
+	border: 0;
+	outline: 0;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	background-color: #0d3a0c;
+}
+
+.form_input:focus {
+	background: #f8f8f8;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	font-family: 'Raleway', serif;
+	-webkit-appearance: none;
+	outline: 0;
+	border: 0;
+	color: #0d3a0c;
+	background: #f8f8f8;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
+
+.btn:hover {
+	background-color: rgba(100, 126, 90, 0.984);
+	color: #f8f8f8;
+
+}
+
+@-webkit-keyframes arrive {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50px, 0);
+		transform: translate3d(0, 50px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes arrive {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 50px, 0);
+		transform: translate3d(0, 50px, 0);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0
+	}
+
+	50% {
+		background-position: 100% 0
+	}
+
+	100% {
+		background-position: 0 0
+	}
+}
+
+@keyframes move {
+	0% {
+		background-position: 0 0
+	}
+
+	50% {
+		background-position: 100% 0
+	}
+
+	100% {
+		background-position: 0 0
+	}
+}
+/* Hides any element visually but provides information for screen readers */
+/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
+
+.visually_hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Footer */
+.footer-basic p {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 0;
+}
+
+
+.footer-basic p a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer-basic p a:hover {
+	opacity: 0.7;
+}
+
+.footer-basic .social {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.footer-basic .social>a {
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #f8f8f8;
+	margin: 0 8px;
+	color: inherit;
+}
+
+#socials {
+	color: #f8f8f8 !important;
+}
+
+.footer-basic .social>a:hover {
+	opacity: 0.9;
+}
+
+.footer-basic .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 12px;
+	color: #f8f8f8;
+	margin-bottom: 0;
+}
