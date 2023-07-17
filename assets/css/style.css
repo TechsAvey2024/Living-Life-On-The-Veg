@@ -2,7 +2,7 @@
 body {
     background-color: rgba(131, 176, 113, 0.984);
 	margin: 0px;
-	padding: 0px;
+	padding-bottom: 10px;
 	font-family: 'Raleway', serif;
 }
 
@@ -122,9 +122,7 @@ h3 {
 }
 
 
-	
-
-#health_tips {
+	#health_tips {
     height: 600px;
 }
 
@@ -433,4 +431,132 @@ hr {
 	font-size: 12px;
 	color: #f8f8f8;
 	margin-bottom: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1396px){
+    #healthtips{
+        width: 65%;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+		
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        
+        
+		
+    }
+	#circle-container {
+		margin-top: 10px;
+		padding: 0;
+		
+	}
+	.left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }  
+
+
+    hr {
+        display: none;
+    }
+	#stay_in_touch {
+		padding-top: 40px;;
+	}
+}
+
+@media screen and (max-width: 957px){
+
+	#main_heading {
+		font-size: 30px;
+	}
+
+    
+
+    #cover-text{
+        left:0px;
+    }
+
+    #healthtips{
+        width:90%;
+        
+        margin: 0 auto;
+    }
+	
+
+   
+
+}
+
+
+@media screen and (max-width: 719px){
+#healthtips {
+	height: 900px;
+}
+	#circle-cover-bg {
+		
+		display: none;
+	}
+	#center-about {
+		display: none;
+	}
+	#stay_in_touch {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 515px){
+
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a {
+		float: right;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
 }
