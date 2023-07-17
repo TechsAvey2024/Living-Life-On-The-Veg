@@ -366,19 +366,7 @@ hr {
 		background-position: 0 0
 	}
 }
-/* Hides any element visually but provides information for screen readers */
-/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
-
-.visually_hidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
-}
+/
 
 /* Footer */
 .footer-basic p {
@@ -558,6 +546,21 @@ hr {
 		float: none;
 		display: block;
 		text-align: left;
+	}
+}
+	/* Hides any element visually but provides information for screen readers */
+/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
+
+
+	.visually_hidden {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
 	}
 
 }
