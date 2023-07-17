@@ -4,9 +4,7 @@ body {
 	margin: 0px;
 	padding-bottom: 10px;
 	font-family: 'Raleway', serif;
-	
 }
-
 h1,
 h2,
 h3 {
@@ -38,6 +36,7 @@ h3 {
 	color: #f8f8f8;
 	padding: 5px 10px;
 	position: absolute;
+	left: 0 !important;
 	background-color: rgba(74, 137, 51, 0.4);
 }
 .topnav {
@@ -58,7 +57,6 @@ h3 {
 
 .topnav a:hover {
 	background-color: #0d3a0c;
-	
 }
 
 .topnav a.active {
@@ -71,7 +69,6 @@ h3 {
 }
 /* About Section */
 
-
 #home_container h2 {
 	font-size: 60px;
 	color: #0d3a0c;
@@ -79,7 +76,8 @@ h3 {
 }
 
 #home_container {
-	font-size: 18px;
+	font-family: "Exo", cursive;
+	font-size: 20px;
 	text-align: center;
 	color: #0d3a0c;
 	padding: 20px 20px 5px 20px;
@@ -96,14 +94,6 @@ h3 {
 	margin: 5px auto 5px auto;
 }
 
-.health-link {
-	color: #0d3a0c;
-}
-
-.health-link:hover {
-	background-color: #0d3a0c;
-	color: #f8f8f8;
-}
 /* Code for Health Tips found here:*/
 
 .bg-grow {
@@ -117,64 +107,54 @@ h3 {
 	position: relative;
 }
 
-#health_tips {
-	font-family: 'cookie', cursive;
-	text-align: center;
+#health-tips-section {
+
+	height: 500px;
 }
 
-
-	#health_tips {
-    height: 600px;
-}
-
-#left-about{
+#left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: left;
-}
+    text-align: left;
+    margin-left: 0;
+    margin-right: 20px; /* Add a margin to the right */
+  }
 
-#right-about {
+  #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: right;
-}
+    text-align: right;
+    margin-left: 20px; /* Add a margin to the left */
+    margin-right: 0;
+  }
 
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-hr {
-    border-top: 1px solid #0d3a0c;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
+  #left-about h2,
+  #right-about h2 {
+    font-size: 30px;
     color: #0d3a0c;
-    width: 70%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
+	text-align: center;
+  }
 
-.right-about-heading {
+  #left-about p {
+    font-size: 20px;
+    color: #0d3a0c;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px; /* Remove the margin on the right */
+  }
 
-    width: 70%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 10px;
-}
-
-.right-about-heading h2 {
+  #right-about p {
+    font-size: 20px;
     color: #0d3a0c;
     text-align: right;
-}
+    margin-left: 10px; /* Remove the margin on the left */
+    margin-right: 10px;
+  }
 
-#welcome {
-    font-size: 50px;
+#health-tips-heading {
+    font-size: 70px;
 	font-family: 'Cookie', cursive;
 	text-align: center;
 	color: #0d3a0c;
@@ -182,31 +162,56 @@ hr {
 	padding: 10px 10px 15px 10px;
 
 }
+/* center image */
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+	
+}
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding: 30px;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
     margin: 0 auto;
+	
 }
 
 #circle-cover-bg {
-    background: url('/assets/images/health.jpg') no-repeat center center;
+    background: url(/assets/images/health.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    margin-top: 100px;
+	
+}
+@media screen and (max-width: 1396px){
+	#health-tips-section {
+	width: 65%;
+	height: 1200px;
+	margin: 0 auto;
 }
 
+    #health-tips-heading {
+        padding: 30px 0;
+        margin-top: 0;
+    }
 
+    #left-about, #right-about {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
 
+    #center-about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-
-
-
-
+    hr {
+        display: none;
+    }
+}
 
 /* Code for form found here:*/
 #stay_in_touch {
@@ -366,8 +371,19 @@ hr {
 		background-position: 0 0
 	}
 }
-/
+/* Hides any element visually but provides information for screen readers */
+/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
 
+.visually_hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
 /* Footer */
 .footer-basic p {
 	padding: 0;
@@ -421,23 +437,66 @@ hr {
 	color: #f8f8f8;
 	margin-bottom: 0;
 }
+/* vegansim */
+ .section-heading {
+	text-align: center;
+	font-size: 58px;
+	color: #0d3a0c;
+ }
+ i {
+	color: #0d3a0c;}
+
+	.facts-list {
+		list-style-type: none; /* Remove default bullet points */
+		padding-left: 0;
+	  }
+	  .facts-list li {
+		position: relative;
+		padding-left: 1.5em; /* Space for the icon */
+		margin-bottom: 5px; /* Adds space below each list item */
+    padding-top: 5px; /* Adds space above each list item */
+	  }
+	  .facts-list li::before {
+		position: absolute;
+		left: 0;
+		top: 0.25em; /* Adjust the vertical position of the icon */
+	  }
+ /* video */
+
+	  .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	  }
+	
+	  .col-md-6 {
+    flex: 0 0 calc(50% - 20px); /* Each column takes up 50% of the row width minus 20px spacing */
+    max-width: calc(50% - 20px);
+    margin: 10px; /* Adds 10px margin on all sides */
+  }
+   /* Media query for mobile and tablet devices */
+   @media (max-width: 868px) {
+    .col-md-6 {
+      flex: 0 0 100%; /* Each column takes up 100% of the row width */
+      max-width: 100%;
+    }
+  }
 
 /* Media Queries */
 
 @media screen and (max-width: 1396px){
-    #healthtips{
+    #health-tips-section{
         width: 65%;
-        height: 1100px;
+        height: 1200px;
         margin: 0 auto;
     }
 
-    #welcome {
+    #health-tips-heading {
         padding: 30px 0;
         margin-top: 0;
     }
 
     #left-about, #right-about {
-		
         width:100%;
         float:left;
         padding: 0;
@@ -446,78 +505,20 @@ hr {
     #center-about{
         clear: both;
         width: 100%;
-        
-        
-		
+        float: left;
+        padding: 0;
     }
-	#circle-container {
-		margin-top: 10px;
-		padding: 0;
-		
-	}
-	.left-about-heading, .right-about-heading{
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }  
-
 
     hr {
         display: none;
     }
+}
 	#stay_in_touch {
 		padding-top: 40px;;
 	}
-}
 
-@media screen and (max-width: 957px){
+@media screen and (max-width: 520px) {
 
-	#main_heading {
-		font-size: 30px;
-	}
-
-    
-
-    #cover-text{
-        left:0px;
-    }
-
-    #healthtips{
-        width:90%;
-        
-        margin: 0 auto;
-    }
-	
-
-   
-
-}
-
-
-@media screen and (max-width: 719px){
-#healthtips {
-	height: 900px;
-}
-	#circle-cover-bg {
-		
-		display: none;
-	}
-	#center-about {
-		display: none;
-	}
-	#stay_in_touch {
-		margin-top: 10px;
-	}
-}
-@media screen and (max-width: 515px){
 
 	.topnav a:not(:first-child) {
 		display: none;
@@ -547,20 +548,4 @@ hr {
 		display: block;
 		text-align: left;
 	}
-}
-	/* Hides any element visually but provides information for screen readers */
-/* CSS code found here: https://www.w3.org/WAI/tutorials/forms/labels/ */
-
-
-	.visually_hidden {
-		border: 0;
-		clip: rect(0 0 0 0);
-		height: 1px;
-		margin: -1px;
-		overflow: hidden;
-		padding: 0;
-		position: absolute;
-		width: 1px;
-	}
-
 }
