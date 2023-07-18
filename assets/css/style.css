@@ -199,9 +199,12 @@ h3 {
 }
 
 #circle-cover-bg {
-    background-image: url('../images/health.jpg ') no-repeat center center;
+    background-image: url('../images/health.jpg ');
     height: 100%;
     border-radius: 50%;
+	background-size:auto;
+	background-position: center;
+	background-repeat: no-repeat;
 	
 }
 
