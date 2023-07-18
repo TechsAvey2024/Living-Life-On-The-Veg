@@ -199,7 +199,7 @@ h3 {
 }
 
 #circle-cover-bg {
-    background: url('/assets/images/health.jpg') no-repeat center center;
+    background: url('../images/health.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 	
@@ -306,7 +306,7 @@ h3 {
 
 
   .bg-lemon {
-	background-image: url('/assets/images/lemon.jpg');
+	background-image: url('../images/lemon.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -317,7 +317,7 @@ h3 {
   }
 
   .bg-strawberry {
-	background-image: url('/assets/images/strawberry.jpg');
+	background-image: url('../images/strawberry.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
