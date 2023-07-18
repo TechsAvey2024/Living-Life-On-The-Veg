@@ -422,9 +422,7 @@ h3 {
    }
 
    @media (max-width: 567px) {
-	.navbar-brand {
-		font-size: 20px;
-	}
+	
 
 	#main_heading {
 		font-size: 30px;
