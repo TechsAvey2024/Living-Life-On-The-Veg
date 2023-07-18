@@ -2,7 +2,7 @@
 [Visit My Website Here](https://rickylambert87.github.io/Project-1/)
 
 
-![](docs/images/amiresponsive_image.png)
+![](assets/images/amiresponsive_image.png)
 
 Created to provide guidance and inspiration for people interested in the human body; furthermore those specifically interested in becoming vegan as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
 
