@@ -199,7 +199,7 @@ h3 {
 }
 
 #circle-cover-bg {
-    background: url("/assets/images/health.jpg") no-repeat center center;
+    background: url("'../images/health.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 	
