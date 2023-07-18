@@ -199,7 +199,7 @@ h3 {
 }
 
 #circle-cover-bg {
-    background: url("'../images/health.jpg") no-repeat center center;
+    background: url("/assets/images/health.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 	
@@ -223,13 +223,26 @@ h3 {
 	position: sticky;
 	left:50%;
 }
-
-#form-section {
-	clear: left;
+.row {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	padding: 20px;
 	background-size: cover;
 	background-position: center bottom 50px;
-	height: 500px;
-  }
+	height: auto;
+	width: 100%;
+}
+
+#form-section {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-size: cover;
+	background-position: center bottom 50px;
+	height: auto;
+	padding: 20px;
+	
+}
   
   .sign-up-page {
 	position: relative;
@@ -289,6 +302,34 @@ h3 {
 	color: #0d3a0c;
   }
 
+  /* photos of grow */
+
+
+  .bg-lemon {
+	background-image: url("/assets/images/lemon.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	margin-left: 10px;
+
+  }
+
+  .bg-strawberry {
+	background-image: url("/assets/images/strawberry.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	margin-right: 10px;
+	
+  }
+ 
+	
+
+  
 
 /* Footer */
 
@@ -314,6 +355,7 @@ h3 {
   
   footer {
 	height: 100px;
+	padding: 10px;;
   }
   .footer p {
 	text-align: center;
@@ -437,12 +479,10 @@ h3 {
    }
    @media (max-width: 991px) {
 .nav-link {
-	
 	margin-left: 2px;
-}   
+}
 }
    @media (max-width: 567px) {
-	
 
 	#main_heading {
 		font-size: 30px;
@@ -489,6 +529,11 @@ h3 {
 	  }
 }
 @media (max-width: 380px) {
+	.sign-up-form {
+		width: 100%;
+		padding: 0;
+	}
+	
 	.sign-up-form h2 {
 		font-size: 20px;
 	}
@@ -503,6 +548,9 @@ h3 {
 		padding-right: 20px;
 		padding-top: 1px;
 		padding-bottom: 1px;
+	  }
+	  .bg-lemon, .bg-strawberry {
+		display: none;
 	  }
 
 }
