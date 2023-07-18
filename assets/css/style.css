@@ -321,7 +321,7 @@ h3 {
 
   .bg-strawberry {
 	background-image: url('../images/strawberry.jpg ');
-	background-position: center;
+	background-position: center bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
 	max-width: 100%;
