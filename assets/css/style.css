@@ -265,7 +265,7 @@ h3 {
 	margin-top: 10px;
 	color: #0d3a0c;
 	width: 90%;
-	
+	align-items: center;
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -290,26 +290,24 @@ h3 {
   }
   .join-button {
 	margin-top: 20px;
-	padding-top: 15px;
-	padding-right: 2px;
-	padding-bottom: 15px;
-	margin-left: 25%;
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Cookie';
 	background-color: #94C16C;
-	color: #0f0f0f;
+	color: #0d3a0c;
 	display: block;
-	border: none;
 	align-items: center;
-  }
+	border-radius: 25%;
+	-webkit-border-radius: 25%;
+	-moz-border-radius: 25%;
+	-ms-border-radius: 25%;
+	-o-border-radius: 25%;
+}
   .join-button:hover {
-	
+	background-color: #405d27;
 	color: white;
   }
-  #updates {
-	color: #0d3a0c;
-  }
+ 
 
   /* photos of grow */
 
@@ -453,7 +451,7 @@ h3 {
 	}
 	#home_container p {
 		font-size: 10px;
-		margin-left: 10px; 
+		margin-left: 10px;
 		margin-right: 10px;
 	}
 	#health-tips-heading {
@@ -465,11 +463,11 @@ h3 {
 	#left-about p {
 		font-size: 10px;
 		margin-left: 10px;
-		margin-right: 10px; 
+		margin-right: 10px;
 	  }
 	  #right-about p {
 		font-size: 10px;
-		margin-left: 10px; 
+		margin-left: 10px;
 		margin-right: 10px;
 	  }
 
