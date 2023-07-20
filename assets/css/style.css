@@ -5,11 +5,10 @@ body {
 	padding-bottom: 10px;
 	font-family: 'Raleway', sans-serif;
 }
-
 h1,
 h2,
 h3 {
-	font-family: 'Cookie', cursive;
+	font-family: 'Cookie';
 	margin: 5px 0 5px;
 	font-weight: 400;
 }
@@ -23,16 +22,12 @@ h3 {
 	background-size: cover;
 	position: relative;
 }
-
-
 #main_heading {
-	
 	font-size: 50px;
 	color: #f8f8f8;
 	padding: 5px 10px;
 	position: absolute;
 	left: 0 !important;
-	
 	background-color: rgba(74, 137, 51, 0.4);
 }
 .header {
@@ -48,33 +43,27 @@ h3 {
 	border-radius: 0;
 	padding: 0;
   }
-  
-  
   .navbar-brand  {
 	margin-left: 25px;
 	font-size: 12px;
 	font-weight: bold;
 	color: #0d3a0c;
-	
   }
   .fa-house {
 	color: #0d3a0c;
   }
-  
   .nav-link {
 	color: #0d3a0c;
 	font-size: 16px;
 	margin-right: 20px;
 	padding-right: 20px;
 	margin-left: 20px;
-	
   }
   #navbarSupportedContent {
 	margin: 0;
 	padding: 0;
 	width: 500;
   }
-  
   .dropdown-item {
 	text-decoration: underline;
 	font-size: 16px;
@@ -85,7 +74,9 @@ h3 {
 	margin: 0;
 	padding: 0;
   }
-  
+
+
+
 /* About Section */
 
 #home_container h2 {
@@ -95,7 +86,6 @@ h3 {
 }
 
 #home_container {
-	
 	font-size: 16px;
 	text-align: center;
 	color: #0d3a0c;
@@ -184,20 +174,18 @@ h3 {
 
 }
 /* center image */
+
+
 #center-about {
     width: 33%;
     margin: 0 auto;
-	
 }
-
 #circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
     margin: 0 auto;
-	
 }
-
 #circle-cover-bg {
     background-image: url('../images/health.jpg ');
     height: 100%;
@@ -205,11 +193,12 @@ h3 {
 	background-size:auto;
 	background-position: center;
 	background-repeat: no-repeat;
-	
 }
 
 
 /* Form */
+
+
 .fa-pepper-hot {
 	color: red;
 	position: sticky;
@@ -298,7 +287,6 @@ h3 {
 
   /* photos of grow */
 
-
   .bg-lemon {
 	background-image: url('../images/lemon.jpg ');
 	background-position: center;
@@ -307,9 +295,7 @@ h3 {
 	max-width: 100%;
 	height: auto;
 	margin-left: 10px;
-
   }
-
   .bg-strawberry {
 	background-image: url('../images/strawberry.jpg ');
 	background-position: center bottom;
@@ -318,12 +304,8 @@ h3 {
 	max-width: 100%;
 	height: auto;
 	margin-right: 10px;
-	
   }
- 
-	
 
-  
 
 /* Footer */
 
@@ -331,22 +313,18 @@ h3 {
 	margin: 10px;
 	padding: 20px 0;
   }
-  
   .footer .social-networks {
 	display: flex;
 	justify-content: center;
 	gap: 10px;
 	margin-bottom: 5px;
   }
-  
   .footer .social-networks li {
 	list-style: none;
   }
-  
   .footer .social-networks a {
 	font-size: 16px;
   }
-  
   footer {
 	height: 100px;
 	padding: 10px;;
@@ -354,22 +332,22 @@ h3 {
   .footer p {
 	text-align: center;
   }
-  
   .social-networks {
 	text-align: center;
   }
-  
   .social-networks li {
 	display: inline;
   }
-  
   .social-networks i {
 	font-size: 100%;
 	margin: 1%;
 	color: #0d3a0c;
   }
 
+
 /* Human Body Section */
+
+
  .section-heading {
 	text-align: center;
 	font-size: 50px;
@@ -384,15 +362,15 @@ h3 {
 	  }
 	  .facts-list li {
 		position: relative;
-		padding-left: 1.5em; /* Space for the icon */
-		margin-bottom: 5px; /* Adds space below each list item */
-    	padding-top: 5px; /* Adds space above each list item */
+		padding-left: 1.5em;
+		margin-bottom: 5px;
+    	padding-top: 5px;
 		padding-right: 1.5em;
 	  }
 	  .facts-list li::before {
 		position: absolute;
 		left: 0;
-		top: 0.25em; /* Adjust the vertical position of the icon */
+		top: 0.25em;
 	  }
  /* Video Section */
 
@@ -402,21 +380,98 @@ h3 {
 		justify-content: center;
 	  }
 	  .col-md-6 {
-		
 		margin: 0;
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 1px;
 		padding-bottom: 1px;
 		height: 450px;
-	
 	  }
-  
 
-  
    /* Media query for mobile and tablet devices */
 
-   @media (max-width: 1297px) {
+   
+   @media (max-width: 380px) {
+	.sign-up-form {
+		width: 100%;
+		padding: 0;
+	}
+	.sign-up-form h2 {
+		font-size: 20px;
+	}
+}
+
+   @media (max-width: 567px) {
+
+	#main_heading {
+		font-size: 30px;
+	}
+#health-tips-section {
+	height: 400px;
+}
+	#home_container h2 {
+		font-size: 25px;
+	}
+	#home_container p {
+		font-size: 10px;
+		margin-left: 10px; 
+		margin-right: 10px;
+	}
+	#health-tips-heading {
+		font-size: 25px;
+	}
+	#left-about h2, #right-about h2 {
+		font-size: 25px;
+	}
+	#left-about p {
+		font-size: 10px;
+		margin-left: 10px;
+		margin-right: 10px; 
+	  }
+	  #right-about p {
+		font-size: 10px;
+		margin-left: 10px; 
+		margin-right: 10px;
+	  }
+
+	  /* Human Body */
+
+	  .section-heading {
+		font-size: 40px;
+	  }
+	  .facts-list li {
+		font-size: 12px;
+	  }
+	  .sign-up-form {
+		font-size: 10px;
+	  }
+	  .video-container {
+		height: 100%;
+	}
+	.col-md-6 {
+		height: 200px;
+	}
+}
+
+@media (max-width: 991px) {
+	.nav-link {
+		margin-left: 2px;
+	}
+	.bg-lemon, .bg-strawberry {
+		display: none;
+	}
+}
+@media (max-width: 1100px) {
+	.col-md-6 {
+		flex: 0 0 calc(100% - 1px); /* Each column takes up 100%% of the row width minus 1px spacing */
+		max-width: calc(80% - 1px);
+	}
+	}
+.video-container {
+	height: 100%;
+	padding: 10px;
+}
+@media (max-width: 1297px) {
 	#health-tips-section{
         width: 90%;
         height: 550px;
@@ -432,7 +487,7 @@ h3 {
 	}
 #circle-cover-bg {
 	display: none;
-}   
+}
 #left-about , #right-about {
 	width:100%;
 	float:left;
@@ -477,86 +532,6 @@ h3 {
 	padding-top: 50px;
 }
    }
-   @media (max-width: 991px) {
-.nav-link {
-	margin-left: 2px;
-}
-.bg-lemon, .bg-strawberry {
-	display: none;
-}
-
-}
-   @media (max-width: 567px) {
-
-	#main_heading {
-		font-size: 30px;
-	}
-#health-tips-section {
-	height: 400px;
-}
-	#home_container h2 {
-		font-size: 25px;
-	}
-	#home_container p {
-		font-size: 10px;
-		margin-left: 10px; /* Remove the margin on the left */
-		margin-right: 10px;
-	}
-	#health-tips-heading {
-		font-size: 25px;
-	}
-	#left-about h2, #right-about h2 {
-		font-size: 25px;
-	}
-	#left-about p {
-		font-size: 10px;
-		margin-left: 10px;
-		margin-right: 10px; /* Remove the margin on the right */
-	  }
-	  #right-about p {
-		font-size: 10px;
-		margin-left: 10px; /* Remove the margin on the left */
-		margin-right: 10px;
-	  }
-
-	  /* Human Body */
-
-	  .section-heading {
-		font-size: 40px;
-	  }
-	  .facts-list li {
-		font-size: 12px;
-	  }
-	  .sign-up-form {
-		font-size: 10px;
-	  }
-	  .video-container {
-		height: 100%;
-		
-	}
-	.col-md-6 {
-		height: 200px;
-	}
-}
-@media (max-width: 380px) {
-	.sign-up-form {
-		width: 100%;
-		padding: 0;
-	}
-	.sign-up-form h2 {
-		font-size: 20px;
-	}
-}
-@media (max-width: 1100px) {
-	.col-md-6 {
-		flex: 0 0 calc(100% - 1px); /* Each column takes up 100%% of the row width minus 1px spacing */
-		max-width: calc(80% - 1px);
-	}
-	}
-.video-container {
-	height: 100%;
-	padding: 10px;
-}
 
 
 
