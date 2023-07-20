@@ -48,15 +48,22 @@ h3 {
   /* -------------------   NavbaR       -----------*/
 .navbar {
 	border-radius: 0;
-	padding: 0;
-  }
+	padding: 0;}
+
+	
+
+  
+
+  .navbar-toggler:focus {
+	box-shadow: none ;
+}
+
+
   .navbar-brand  {
 	margin-left: 25px;
 	font-size: 12px;
 	font-weight: bold;
 	color: #0d3a0c;
-	border: solid;
-		border-color: rgba(74, 137, 51, 0.4);
   }
   .fa-house {
 	color: #0d3a0c;
@@ -73,6 +80,7 @@ h3 {
   #navbarSupportedContent {
 	margin: 0;
 	padding: 0;
+	border: 0;
   }
   .dropdown-item {
 	text-decoration: underline;
@@ -84,6 +92,8 @@ h3 {
 	margin: 0;
 	padding: 0;
   }
+ 
+  
 
 
 
@@ -254,8 +264,8 @@ h3 {
   .sign-up-form {
 	margin-top: 10px;
 	color: #0d3a0c;
-	background-color: rgba(131, 176, 113, 0.984);
 	width: 90%;
+	
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -280,20 +290,22 @@ h3 {
   }
   .join-button {
 	margin-top: 20px;
-	border-radius: 2px;
 	padding-top: 15px;
-	padding-right: 32px;
+	padding-right: 2px;
 	padding-bottom: 15px;
-	padding-left: 32px;
+	margin-left: 25%;
 	text-align: center;
-	font-size: 100%;
-	background-color: #405d27;
-	color: #0d3a0c;
+	font-size: 50px;
+	font-family: 'Cookie';
+	background-color: #94C16C;
+	color: #0f0f0f;
 	display: block;
+	border: none;
+	align-items: center;
   }
   .join-button:hover {
-	background-color: #0d3a0c;
-	color: #405d27;
+	
+	color: white;
   }
   #updates {
 	color: #0d3a0c;
