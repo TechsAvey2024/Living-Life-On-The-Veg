@@ -90,14 +90,24 @@ h3 {
   }
   .dropdown-item {
 	text-decoration: underline;
-	font-size: 16px;
-	background-color: rgba(131, 176, 113, 0.984);
-	color: #0d3a0c;
+	font-size: 18px;
+	font-weight: 300px;
+	color: #94C16C;
+	
   }
+  .dropdown-item:hover {
+	background-color: #94C16C;
+	color: white;
+  }
+  
   .dropdown-menu.show {
-	margin: 0;
-	padding: 0;
-  }
+	margin: 0px;
+	padding: 0px;
+	background-color: #0d3a0c;
+	border: #405d27 3px solid;;
+	
+	
+}
  
   
 
