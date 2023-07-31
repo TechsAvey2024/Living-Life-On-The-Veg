@@ -8,7 +8,7 @@ Created to provide guidance and inspiration for people interested in the human b
 
 This website is made up of the following sections:
 
-[Visit My Website Here](https://rickylambert87.github.io/Project-1/)
+[Visit My Website Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
 
 1. Home/Introduction
 2. Unlocking Benefits
