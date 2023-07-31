@@ -2,7 +2,7 @@
 
 
 
-![](assets/images/Screenshot-resposive.png)
+![](assets/images/responsive.png)
 
 Created to provide guidance and inspiration for people interested in the human body; furthermore those specifically interested in becoming vegan as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
 
