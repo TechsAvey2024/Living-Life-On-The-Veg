@@ -171,7 +171,9 @@ background-color: #8f2c24;
     margin-left: 10px; /* Remove the margin on the left */
     margin-right: 30px;
   }
-
+h2 i {
+	color: #fff;
+}
 
 /* center image */
 
@@ -220,16 +222,16 @@ section .bg {
 	overflow: hidden;
 }
 
-section .girl {
+section .boy {
 	bottom: 0;
 	position: absolute;
 	scale: 1;
 	pointer-events: none;
-	animation: animateGirl 15s linear infinite;
+	animation: animateBoy 15s linear infinite;
 	overflow: hidden;
-	
+	-webkit-animation: animateBoy 15s linear infinite;
 }
-@keyframes animateGirl {
+@keyframes animateBoy {
 	0%{
 		transform: translateX(calc(100% + 200vw));
 		-webkit-transform: translateX(calc(100% + 200vw));
@@ -391,7 +393,7 @@ section .girl {
 	-webkit-animation: animate 15s linear infinite;
 }
  @keyframes animate {
-	0%{
+0%{
 		opacity: 0;
 		top: -10%;
 		transform: translateX(20px) rotate(0deg)	;
@@ -419,18 +421,18 @@ section .girl {
 	transform: translateX(20px) rotate(180deg)	;
 }
 80%{
-	transform: translateX(20p-x) rotate(45deg)	;
-	-webkit-transform: translateX(20p-x) rotate(45deg)	;
-	-moz-transform: translateX(20p-x) rotate(45deg)	;
-	-ms-transform: translateX(20p-x) rotate(45deg)	;
-	-o-transform: translateX(20p-x) rotate(45deg)	;
+	transform: translateX(20px) rotate(45deg)	;
+	-webkit-transform: translateX(20px) rotate(45deg)	;
+	-moz-transform: translateX(20px) rotate(45deg)	;
+	-ms-transform: translateX(20px) rotate(45deg)	;
+	-o-transform: translateX(20px) rotate(45deg)	;
 }
 100%{
 	top: 110%;
 	transform: translateX(20px) rotate(225deg)	;
 }
 
- }
+}
 
 
 
@@ -472,6 +474,9 @@ section .girl {
 	font-size: 100%;
 	margin: 1%;
 	color: #8f2c24;
+  }
+  .social-networks i:hover {
+	color: #d64c42;
   }
 
 
@@ -557,11 +562,28 @@ iframe {
    /* Media query for mobile and tablet devices */
 
    
-   @media (max-width: 380px) {
+   @media (max-width: 412px) {
 	.video-container {
 		width: 80%;
 		height: 100px;
 		margin-bottom: 10px;
+	  }
+	  .boy {
+		display: none;
+	  }
+	  .leaves {
+		display: none;
+	  }
+	  .bg{
+		display: none;
+	  }
+	  .login {
+		margin: 0;
+		width: 400px;
+		height: 400px;
+		backdrop-filter: none;
+		border: none;
+		padding: 20px;
 	  }
 }
 
