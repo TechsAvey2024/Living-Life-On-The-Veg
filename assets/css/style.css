@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:wght@300;500&display=swap');
-body {
+body, html {
+	min-width: 450px;
 	background-color: #ebdea8;
 	color: #8f2c24;
 	font-family: 'Raleway', sans-serif;
@@ -67,7 +68,7 @@ hr {
 	color: #8f2c24;
   }
   .navbar-brand:hover {
-	color: #d64c42;
+	color: #000;
   }
   .fa-house {
 	color: #8f2c24;
@@ -82,7 +83,7 @@ hr {
 
 	  }
 	  .nav-link:hover {
-		color: #d64c42;
+		color: #000;
 	  }
 
   #navbarSupportedContent {
@@ -130,8 +131,8 @@ hr {
 
 .health-section {
 background-color: #8f2c24;
-	height: 50vh;
-	
+	height: 70vh;
+	margin-top: 10px;	
 }
 
 #left-about {
@@ -312,11 +313,16 @@ section .boy {
 	color: #fff;
 	cursor: pointer;
 	font-size: 1.25em;
-	font-weight: 500;
+	font-weight: 700;
+	letter-spacing: 2px;
 	transition: 0.5s;
 }
+
+
 .login .inputBox #btn:hover {
-	background: #d64c42;
+	background: orange;
+	color: #000;
+	font-weight: 800;
 }
 .login .group {
 	display: flex;
@@ -325,11 +331,14 @@ section .boy {
 .login .group a {
 	font-size: 1.25em;
 	color: #8f2c24;
-	font-weight: 500;
+	font-weight: 700;
 	text-decoration: none;
 }
 .login .group a:nth-child(2){
 	text-decoration: underline;
+}
+.login .group a:hover{
+	color: #000;
 }
 .leaves {
 	position: absolute;
@@ -486,7 +495,7 @@ section .boy {
 
  .section-heading {
 	text-align: center;
-	margin: 50px;
+	margin: 10px;
 	
  }
  i {
@@ -521,6 +530,7 @@ section .boy {
  .video {
 	background-color: #8f2c24;
 	color: #ebdea8;
+	
  }
 
 	.video-section {
@@ -531,7 +541,18 @@ section .boy {
 		margin-bottom: 10px;
 		width: 100%;
 		margin: 20px;
+		
 	}
+	.text-center {
+		font-weight: 700;
+	}
+
+	#requests::placeholder{
+ color: #8f2c24;
+ font-weight: 500;
+ 
+
+}
 
 /* Lean to Grow */
 
@@ -560,6 +581,24 @@ iframe {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+#btn {
+	background: #8f2c24;
+	color: #fff;}
+
+	#btn:hover {
+background: orange;
+	color: #000;
+	}
+	textarea {
+		margin-top: 10px;
+		margin-right: 40px;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		padding: 10px;
+		border: 3px solid #8f2c24;
+		box-shadow: 8px 8px 8px 4px #8f2c24;
+	}
+
    /* Media query for mobile and tablet devices */
   
    @media (max-width: 412px) {

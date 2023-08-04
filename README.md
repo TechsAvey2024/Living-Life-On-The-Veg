@@ -87,25 +87,64 @@ I used Google fonts 'Cookie' and 'Raleway' across the entire website, I felt 'Co
 
 ## **Features**
 
-This is a fully responsive website that was designed mobile-first as this is the most likely way it will be viewed; the page is divided into the four sections listed in the navbar. Where a colour background has been used it has a slightly transparent opacity and the text is off-white. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
+This is a fully responsive website that was designed desktop-first which i later learnt was the wrong way to do this, the page is divided into the four sections listed in the navbar. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
 
 ### *Navbar*
-The navbar is placed on top of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme and incorporates the colour palette, it immediately encourages the user to think of being on holiday and entices them to read further. 
+The navbar is placed on the bottom of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme, it immediately encourages the user to be encourages to grow and entices them to read further. 
 
-### *About*
-This is where I introduce myself and the page and give a brief insight into why it was created, I have used an H2 element for the main heading, followed by an H3 tag line and then a more descriptive paragraph. I wanted to keep this section simple and clean as there is plenty of information that follows.  
+### *Unlocking The Benefits*
+This page is to guide users towards a healthy lifestyle and give them information they didnt know previously and also has a hero image and some health tips with an animation at the bottom for tablet amd desktop users with a sign in section at the bottom.  
 
-### *Travel Tips 101*
-This section starts with an H2 heading and is then followed by a series of H4 and P elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in. Within the p elements, there are several clickable links for products mentioned, this enables the user to easily navigate their way to recommended products creating a trusting relationship between the author and user.
-There is also an Essentials list of items to pack when travelling, on smaller screens this list appears under the Travel Tips and on larger screens (1440px+) it is alongside it. This list is also available as a downloadable document so that users can print this list to use when packing. 
+### *The Human Body*
+This page starts with an H2 heading and is then followed by a series of "li" elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in with the bold text. i have also added two videos for users to watch.
 
-### *My Last Trip*
-This section includes the most information on the page and so I wanted to include imagery alongside text. The title is an H2 element that is set underneath a responsive hero image, this is followed by a concise review of Sri Lanka. The review is built using H4 and p elements with icons from FontAwesome. 
-There is then a separate div that contains a far more detailed review of Sri Lanka, this features a map embedded using GoogleMaps and also a read more/read less button. I want users to read this information only if they want to and not have an overwhelming amount of text on their screen. 
-I have then included a Fancybox gallery of images of my trip to Sri Lanka, this uses 2 Fancybox libraries that have been included at the bottom of my HTML code.
+### *Learn to Grow*
+This page includes the most information and so I wanted to include icons alongside text. The title is an H2 element, this is followed by a concise review of how to grow. The review is built using ul and li elements with icons from FontAwesome. 
+There is then a separate div that contains two videos of information regarding the text provided, 
 
-### *Keep in touch*
-This is a signup form that will allow the user to sign up for La Petite Traveller's newsletter. There is an H2 & H3 providing information regarding the form and an animated arrow guiding the user's attention to the form below. The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
+
+### *Inspirations*
+
+This is a dropdown menu linking the users to the official websites where i gathered alot of my information, i went for the same colours and wanted to make it so the user can visit any of the websites without losing this site by using "target:_blank".
+
+### *Help Us Grow*
+This is a signup form that will allow the user to sign up for Living Life On The Veg's to become a member. There is an H2 providing information regarding the form and an animation with leaves falling along with a boy on a bicycle, The form uses 2 elements, 1 text input and a password input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
 
 ---
 ## Technologies Used 
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [Bootstrap](https://getbootstrap.com/)
+    - Used to obtain icons and also help build each webpage.
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Raleway and Cookie
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the Icons for all pages.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Balsamiq](https://balsamiq.com/)
+    - Used to create the wireframes for the project.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate repsonsive image used in README file.
+- [Pinterest](https://www.pinterest.co.uk/)
+    - Used to find images for my animation.
+- [PhotoShop](https://www.adobe.com/uk/products/photoshop/)
+    - Used to edited my images in order to fit and remove backgrounds.
+- [Adobe](https://www.adobe.com)
+    - Used to covert files to PNG's in order to fit and remove backgrounds.
+---
+## Testing
+
+### **User Stories**
+
