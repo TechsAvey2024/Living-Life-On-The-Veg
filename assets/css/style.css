@@ -2,6 +2,7 @@
 body {
 	background-color: #ebdea8;
 	color: #8f2c24;
+	font-family: 'Raleway', sans-serif;
 }
 .validator {
 	align-items: center;
@@ -560,8 +561,7 @@ iframe {
 	margin-bottom: 30px;
 }
    /* Media query for mobile and tablet devices */
-
-   
+  
    @media (max-width: 412px) {
 	.video-container {
 		width: 80%;
