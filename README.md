@@ -4,7 +4,7 @@
 
 ![](/docs/responsive.png)
 
-Created to provide guidance and inspiration for people interested in the human body; furthermore those specifically interested in becoming vegan as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
+Created to provide guidance and inspiration for people interested in the human body, those specifically interested in learning to grow your own food source, as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
 
 This website is made up of the following sections:
 
@@ -17,14 +17,14 @@ This website is made up of the following sections:
 
 The business goals for this website are:
 
-1. To advise users on how to eat well and live a good life on a budget
-2. To inspire users to learn to grow foods and learn recipes to improve there lifestyle
+1. To advise users on how to grow food and herbs and live a good life on a budget
+2. To inspire users to learn about different foods and learn about the human body to improve there lifestyle
 3. Earn commission from links provided (cookbooks, healthy diet plans, products)
 4. Build a database of users to send future information & content to, thus furthering the reach of the author.
 
 The user goals of this website are:
-1. As a first-time visitor, I want to easily find useful information & tips for healthy diets.
-2. As a first-time visitor, I want to find inspiration for planning healthy meals.
+1. As a first-time visitor, I want to easily find useful information & tips for growing food and herbs.
+2. As a first-time visitor, I want to find inspiration for planning growing food.
 3. As a first-time visitor, I want to find a helpful guide about the human body.
 4. As a recurring or first-time visitor, I want to find recommendations from a trusted source for cookbooks/healthy diets/products.
 5. As a recurring or first-time visitor, to easily find affiliate pages from the author, with even more inspiration available.
@@ -37,29 +37,29 @@ The user goals of this website are:
 Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
 
 Living Life On The Veg's target users are:
-* Aged 18+
+* Aged 16+
 * Past/future health experts
-* People interested in eating healthy on a budget
+* People interested in learning tips and tricks for growing food
 * Have an interest in changing there lifestyles
 
 What these users would be looking for:
 * Clear, concise, easy-to-find information
 * Videos that provide inspiration and make the lifestyle choice look desirable
 * Helpful guidance on routes available
-* Recommendations for where and what to eat
+* Recommendations for where and what to do to achieve this lifestyle
 
-This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance as this is often the reason people are put off with healthy lifestyles.
+This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to provide icons and also animation at the bottom due to the overwhelming amount of information at first glance as this is often the reason people are put off with healthy lifestyles.
 
 Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
 
 ### **Scope**
 In order to achieve the desired user & business goals, the following features will be included in this release:
 
-- Header and menu bar, to navigate to various sections of the page
+- Header with a background image of some Runner-Peas in my garden and menu bar , to navigate to various sections of the page
 - Growing section full of tips for growing food
 - Videos with information on growing food
-- sign up form
-- Links to affiliate social media pages
+- Sign Up form
+- Links to affiliate/inspired social media pages
 
 ### **Structure** 
 
@@ -76,7 +76,7 @@ Whilst building the website I felt that there were sections with too much inform
 
 ### **Surface**
 
-I chose a colour palette based around red & beige as these colours remind me of autumn and also resembles the background i chose for my animation, I want the users of this website to be able to get clear information easily and also have videos to watch instead of reading and believe these colours will help to do this. 
+I chose a colour palette based around a green & beige as these colours remind me of the outdoors and also resembles the theme, I want the users of this website to be able to get clear information easily and also have videos to watch instead of reading and believe these colours will help to do this. 
 
 I used Google fonts 'Cookie' and 'Raleway' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Raleway' for the body text, example below:
 

@@ -2,7 +2,7 @@
 body, html {
 	min-width: 450px;
 	background-color: #ebdea8;
-	color: #8f2c24;
+	color: #405d27;
 	font-family: 'Raleway', sans-serif;
 }
 .validator {
@@ -30,7 +30,7 @@ hr {
 	background-size: cover;
 	position: relative;
 	border: solid;
-		border-color: #8f2c24;
+		border-color: #3e4444;
 		object-fit: fill;
 	  
 }
@@ -40,7 +40,7 @@ hr {
 	padding: 5px 10px;
 	position: absolute;
 	left: 0 !important;
-	background-color: rgb(143, 44, 36, 0.6);
+	background-color: rgb(64, 93, 39, 0.6);
 	
 }
   /* -------------------   NavbaR       -----------*/
@@ -48,7 +48,7 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #8f2c24;
+	background-color: #405d27;
 	color: #fff;
 	height: 100px;
   }
@@ -65,16 +65,16 @@ hr {
 	margin-left: 25px;
 	font-size: 20px;
 	font-weight: 700;
-	color: #8f2c24;
+	color: #3e4444;
   }
   .navbar-brand:hover {
-	color: #000;
+	color: #82b74b;
   }
   .fa-house {
-	color: #8f2c24;
+	color: #3e4444;
   }
   .nav-link {
-	color: #8f2c24;
+	color: #405d27;
 	font-size: 20px;
 	margin-right: 20px;
 	padding-right: 20px;
@@ -83,7 +83,7 @@ hr {
 
 	  }
 	  .nav-link:hover {
-		color: #000;
+		color: #82b74b;
 	  }
 
   #navbarSupportedContent {
@@ -95,19 +95,19 @@ hr {
 	text-decoration: underline;
 	font-size: 18px;
 	font-weight: 300px;
-	color: white;
+	color: #3e4444;
 	
   }
   .dropdown-item:hover {
-	background-color: #d64c42;
-	color: black;
+	background-color: #405d27;
+	color: #c1946a;
   }
   
   .dropdown-menu.show {
 	margin: 0px;
 	padding: 0px;
-	background-color: #8f2c24;
-	border: #d64c42 3px solid;;
+	background-color: #82b74b;
+	border: #405d27 3px solid;;
 	
 	
 }
@@ -116,13 +116,13 @@ hr {
 
 #home_container h2 {
 	
-	color: #8f2c24;
+	color: #3e4444;
 	text-align: center;
 }
 
 #home_container {
 	text-align: center;
-	color: #8f2c24;
+	color: #405d27;
 	padding: 20px 20px 5px 20px;
 }
 
@@ -130,7 +130,7 @@ hr {
 /* Code for Health Tips found here:*/
 
 .health-section {
-background-color: #8f2c24;
+background-color: #405d27;
 	height: 70vh;
 	margin-top: 10px;	
 }
@@ -156,7 +156,7 @@ background-color: #8f2c24;
   #left-about h2,
   #right-about h2 {
     
-    color: #ebdea8;
+    color: #82b74b;
 	text-align: center;
   }
 
@@ -174,7 +174,7 @@ background-color: #8f2c24;
     margin-right: 30px;
   }
 h2 i {
-	color: #fff;
+	color: #c1946a;
 }
 
 /* center image */
@@ -198,7 +198,7 @@ h2 i {
 	background-position: center;
 	background-repeat: no-repeat;
 	border: solid;
-	border-color: #ebdea8;
+	border-color: #82b74b;
 }
 
 
@@ -209,7 +209,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 80vh;
+	height: 90vh;
 	overflow: hidden;
 	
 }
@@ -225,13 +225,16 @@ section .bg {
 }
 
 section .boy {
-	bottom: 0;
+	bottom: 70px;
 	position: absolute;
 	scale: 1;
 	pointer-events: none;
 	animation: animateBoy 15s linear infinite;
 	overflow: hidden;
 	-webkit-animation: animateBoy 15s linear infinite;
+}
+.boy {
+	height: 350px;
 }
 @keyframes animateBoy {
 	0%{
@@ -267,7 +270,7 @@ section .boy {
 	position: relative;
 	padding: 60px;
 	background: rgba(255,255,255,0.25);
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(5px);
 	border: 1px solid #fff;
 	border-bottom: 1px solid rgba(255,255,255,0.5);
 	border-right: 1px solid rgba(255,255,255,0.5);
@@ -283,7 +286,7 @@ section .boy {
 	text-align: center;
 	font-size: 2.5em;
 	font-weight: 600;
-	color: #8f2c24;
+	color: #ebdea8;
 	margin-bottom: 10px;
 }
 .login .inputBox {
@@ -296,21 +299,21 @@ section .boy {
 	outline: none;
 	font-size: 1.25em;
 	font-weight: 600;
-	color: #8f2c24;
+	color: #3e4444;
 	border-radius: 5px;
 	border: none;
 	margin-bottom: 30px;
 	
 }
 .login .inputBox input ::placeholder {
-	color: #8f2c24;
+	color: #3e4444;
 }
 .login .inputBox #btn {
 	position: relative;
 	border: none;
 	outline: none;
-	background: #8f2c24;
-	color: #fff;
+	background: #405d27;
+	color: #ebdea8;
 	cursor: pointer;
 	font-size: 1.25em;
 	font-weight: 700;
@@ -320,133 +323,10 @@ section .boy {
 
 
 .login .inputBox #btn:hover {
-	background: orange;
+	background: #82b74b;
 	color: #000;
 	font-weight: 800;
 }
-.login .group {
-	display: flex;
-	justify-content: space-between;
-}
-.login .group a {
-	font-size: 1.25em;
-	color: #8f2c24;
-	font-weight: 700;
-	text-decoration: none;
-}
-.login .group a:nth-child(2){
-	text-decoration: underline;
-}
-.login .group a:hover{
-	color: #000;
-}
-.leaves {
-	position: absolute;
-	width: 100%;
-	height: 70vh;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 1;
-	pointer-events: none;
-}
-.leaves .set {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	pointer-events: 0;
-}
-.leaves .set div {
-	position: absolute;
-	display: block;
-}
-.leaves .set div:nth-child(1){
-	left: 67%;
-	animation: animate 20s linear infinite;	
-}
-.leaves .set div:nth-child(2){
-	left: 70%;
-	animation: animate 14s linear infinite;
-	-webkit-animation: animate 14s linear infinite;
-}
-.leaves .set div:nth-child(3){
-	left: 70%;
-	animation: animate 12s linear infinite;
-	-webkit-animation: animate 12s linear infinite;
-}
-.leaves .set div:nth-child(4){
-	left: 77%;
-	animation: animate 15s linear infinite;
-	-webkit-animation: animate 15s linear infinite;
-}
-.leaves .set div:nth-child(5){
-	left: 85%;
-	animation: animate 18s linear infinite;
-	-webkit-animation: animate 18s linear infinite;
-}
-.leaves .set div:nth-child(6){
-	left: 90%;
-	animation: animate 12s linear infinite;
-	-webkit-animation: animate 12s linear infinite;
-}
-.leaves .set div:nth-child(7){
-	left: 80%;
-	animation: animate 14s linear infinite;
-	-webkit-animation: animate 14s linear infinite;
-}
-.leaves .set div:nth-child(8){
-	left: 70%;
-	animation: animate 15s linear infinite;
-	-webkit-animation: animate 15s linear infinite;
-}
- @keyframes animate {
-0%{
-		opacity: 0;
-		top: -10%;
-		transform: translateX(20px) rotate(0deg)	;
-
-}
-10%{
-	opacity: 1;
-	
-}
-20%{
-	transform: translateX(-20px) rotate(45deg);
-	-webkit-transform: translateX(-20px) rotate(45deg);
-	-moz-transform: translateX(-20px) rotate(45deg);
-	-ms-transform: translateX(-20px) rotate(45deg);
-	-o-transform: translateX(-20px) rotate(45deg);
-}
-40%{
-	transform: translateX(-20px) rotate(90deg)	;
-	-webkit-transform: translateX(-20px) rotate(90deg)	;
-	-moz-transform: translateX(-20px) rotate(90deg)	;
-	-ms-transform: translateX(-20px) rotate(90deg)	;
-	-o-transform: translateX(-20px) rotate(90deg)	;
-}
-60%{
-	transform: translateX(20px) rotate(180deg)	;
-}
-80%{
-	transform: translateX(20px) rotate(45deg)	;
-	-webkit-transform: translateX(20px) rotate(45deg)	;
-	-moz-transform: translateX(20px) rotate(45deg)	;
-	-ms-transform: translateX(20px) rotate(45deg)	;
-	-o-transform: translateX(20px) rotate(45deg)	;
-}
-100%{
-	top: 110%;
-	transform: translateX(20px) rotate(225deg)	;
-}
-
-}
-
-
-
-
 
 /* Footer */
 
@@ -483,10 +363,10 @@ section .boy {
   .social-networks i {
 	font-size: 100%;
 	margin: 1%;
-	color: #8f2c24;
+	color: #c1946a;
   }
   .social-networks i:hover {
-	color: #d64c42;
+	color: #82b74b;
   }
 
 
@@ -524,11 +404,11 @@ section .boy {
 		height: 400px;
 		margin-bottom: 10px;
 		border: solid;
-		border-color: #8f2c24;
+		border-color: #c1946a;
 	  }
  /* Video Section */
  .video {
-	background-color: #8f2c24;
+	background-color: #405d27;
 	color: #ebdea8;
 	
  }
@@ -548,7 +428,7 @@ section .boy {
 	}
 
 	#requests::placeholder{
- color: #8f2c24;
+ color: #405d27;
  font-weight: 500;
  
 
@@ -570,11 +450,11 @@ li {
 }
 
 iframe {
-		border: 2px solid #d64c42;
+		border: 2px solid #c1946a
 
 }
 .pesitcides {
-	background-color: #8f2c24;
+	background-color: #405d27;
 	color: #ebdea8;
 }
 .basic-heading {
@@ -582,11 +462,11 @@ iframe {
 	margin-bottom: 30px;
 }
 #btn {
-	background: #8f2c24;
+	background: #405d27;
 	color: #fff;}
 
 	#btn:hover {
-background: orange;
+background: #82b74b;
 	color: #000;
 	}
 	textarea {
@@ -595,8 +475,8 @@ background: orange;
 		margin-left: 30px;
 		margin-bottom: 10px;
 		padding: 10px;
-		border: 3px solid #8f2c24;
-		box-shadow: 8px 8px 8px 4px #8f2c24;
+		border: 3px solid #82b74b;
+		box-shadow: 8px 8px 8px 4px #405d27;
 	}
 
    /* Media query for mobile and tablet devices */
@@ -624,19 +504,19 @@ background: orange;
 		border: none;
 		padding: 20px;
 	  }
+	  .login h2 {
+		color: #405d27;
+	  }
 }
 
 
 @media (max-width: 991px) {
-	
-	
 	.video-container {
 		width: 100%;
 		height: 200px;
 		margin-bottom: 10px;
 	  }
 }
-
 @media (max-width: 1042px) {
 .health-section {
 	display: flex;
