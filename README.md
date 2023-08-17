@@ -144,8 +144,4 @@ This is a signup form that will allow the user to sign up for Living Life On The
 - [Adobe](https://www.adobe.com)
     - Used to covert files to PNG's in order to fit and remove backgrounds.
 ---
-## Testing
 
-### **User Stories**
-
-To be continued....
