@@ -2,16 +2,17 @@
 body, html {
 	background-color: #ebdea8;
 	color: #405d27;
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
+	font-weight: 500;
+	width: 100%;
 }
 .validator {
 	align-items: center;
 	text-align: center;
 }
 h1,
-h2,
-h3 {
-	font-family: 'Cookie';
+h2 {
+	font-family: 'Cookie', sans-serif;
 	margin: 5px 0 5px;
 	font-weight: 700;
 }
@@ -118,12 +119,17 @@ hr {
 	color: #3e4444;
 	text-align: center;
 }
+p,
+li {
+	font-weight: 500;
+}
 
 #home_container {
 	text-align: center;
 	color: #405d27;
 	padding: 20px 20px 5px 20px;
 }
+
 
 
 /* Code for Health Tips found here:*/
@@ -460,6 +466,7 @@ iframe {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
 #btn {
 	background: #405d27;
 	color: #fff;}
@@ -489,9 +496,7 @@ background: #82b74b;
 	  .boy {
 		display: none;
 	  }
-	  .leaves {
-		display: none;
-	  }
+	  
 	  .bg{
 		display: none;
 	  }
