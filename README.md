@@ -10,6 +10,9 @@ This website is made up of the following sections:
 
 [Visit My Website Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
 
+[Visit My GitHub Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
+
+
 1. Home/Introduction
 2. Unlocking Benefits
 3. 10 Fact about The Human Body
@@ -78,10 +81,7 @@ Whilst building the website I felt that there were sections with too much inform
 
 I chose a colour palette based around a green & beige as these colours remind me of the outdoors and also resembles the theme, I want the users of this website to be able to get clear information easily and also have videos to watch instead of reading and believe these colours will help to do this. 
 
-I used Google fonts 'Cookie' and 'Raleway' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Raleway' for the body text, example below:
-
-![Image](/docs/font_selection.png)
-![Image](/docs/lets%20grow.png)
+I used Google fonts 'Cookie' and 'Sans-Serif' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Sans-Serif' for the body text, example below:
 
 ---
 
