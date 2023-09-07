@@ -6,13 +6,6 @@
 
 Created to provide guidance and inspiration for people interested in the human body, those specifically interested in learning to grow your own food source, as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
 
-This website is made up of the following sections:
-
-[Visit My Website Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
-
-[Visit My GitHub Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
-
-
 The business goals for this website are:
 
 1. To advise users on how to grow food and herbs and live a good life on a budget
