@@ -416,6 +416,10 @@ section .boy {
 	color: #ebdea8;
 	
  }
+ .video-fact {
+	width: 100%;
+	height: 100%;
+ }
 
 	.video-section {
 		display: flex;
@@ -455,8 +459,6 @@ li {
 
 iframe {
 		border: 2px solid #c1946a;
-		width: 100%;
-		height: 100%;
 
 }
 .pesitcides {
