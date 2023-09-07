@@ -1,4 +1,4 @@
-# LIVING LIFE ON THE VEG
+# living life on the veg
 
 
 
@@ -39,7 +39,7 @@ What these users would be looking for:
 * Helpful guidance on routes available
 * Recommendations for where and what to do to achieve this lifestyle
 
-This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to provide icons and also animation at the bottom due to the overwhelming amount of information at first glance as this is often the reason people are put off with healthy lifestyles.
+This website will offer all of these things whilst also allowing for intuitive navigation and comfortability of use. An effort was taken to provide icons and also animation at the bottom due to the overwhelming amount of information at first glance as this is often the reason people are put off.
 
 Due to the age group of the users, it is assumed that most users will be viewing the site on their mobile phones and therefore creating something responsive is integral to the design.
 
@@ -69,13 +69,13 @@ Whilst building the website I felt that there were sections with too much inform
 
 I chose a colour palette based around a green & beige as these colours remind me of the outdoors and also resembles the theme, I want the users of this website to be able to get clear information easily and also have videos to watch instead of reading and believe these colours will help to do this. 
 
-I used Google fonts 'Cookie' and 'Sans-Serif' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Sans-Serif' for the body text, example below:
+I used Google fonts 'Cookie' and 'Sans-Serif' across the entire website, I felt 'Cookie' was a fun text and stood out on the page but I also wanted something easier to read for the large blocks of texts which is why I chose 'Sans-Serif' for the body text.
 
 ---
 
 ## **Features**
 
-This is a fully responsive website that was designed desktop-first which i later learnt was the wrong way to do this, the page is divided into the four sections listed in the navbar. All of the headings use the font Cookie and the body text is Raleway, this consistency has been used across the website to create a coherent design. 
+This is a fully responsive website that was designed desktop-first which i later learnt was the wrong way to do this, the page is divided into the four sections listed in the navbar. All of the headings use the font Cookie and the body text is Sans-Serif, this consistency has been used across the website to create a coherent design. 
 
 ### *Navbar*
 The navbar is placed on the bottom of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme, it immediately encourages the user to be encourages to grow and entices them to read further. 
@@ -199,7 +199,18 @@ There are no unfixed bugs that am I am aware of. Testing has been very thorough 
 
 The live link can be found here - [Living Life On The Veg](https://rickylambert87.github.io/Living-Life-On-The-Veg/) 
 
-The Github repository can be found here - [RickyLambert87/Living-Life-On-The-Veg](https://github.com/RickyLambert87/Living-Life-On-The-Veg)
+The Github repository can be found here - [RickyLambert87](https://github.com/RickyLambert87/Living-Life-On-The-Veg)
 
+---
+
+## Problems
+
+- A problem that i faced wastrying to get my animation to fit a mobile device but i wasnt able to do this so i opted for the animation to be removed on devices smaller than a width of 412px.
+
+![Mobile Display](docs/mobile-display.png)
+
+---
+
+[Back to the top](#living-life-on-the-veg)
 
 
