@@ -1,8 +1,8 @@
+# LIVING LIFE ON THE VEG
 
 
 
-
-![](/docs/responsive.png)
+![Header](/docs/responsive.png)
 
 Created to provide guidance and inspiration for people interested in the human body, those specifically interested in learning to grow your own food source, as that is the most upcoming new lifestyle featured on this website. This website was made for educational purposes only.
 
@@ -12,11 +12,6 @@ This website is made up of the following sections:
 
 [Visit My GitHub Here](https://rickylambert87.github.io/Living-Life-On-The-Veg/)
 
-
-1. Home/Introduction
-2. Unlocking Benefits
-3. 10 Fact about The Human Body
-4. Form to sign up to Living Life On The Veg's newsletter
 
 The business goals for this website are:
 
@@ -92,23 +87,29 @@ This is a fully responsive website that was designed desktop-first which i later
 ### *Navbar*
 The navbar is placed on the bottom of a responsive image which acts as a header, when viewed on smaller screens I opted for the menu to collapse into a hamburger icon as I still wanted to image to be seen. The image I have chosen is representative of the site's theme, it immediately encourages the user to be encourages to grow and entices them to read further. 
 
+
 ### *Unlocking The Benefits*
 This page is to guide users towards a healthy lifestyle and give them information they didnt know previously and also has a hero image and some health tips with an animation at the bottom for tablet amd desktop users with a sign in section at the bottom.  
-
+Front Top
+![Top Image](docs/homepage.png)
 ### *The Human Body*
 This page starts with an H2 heading and is then followed by a series of "li" elements, this structure is used to provide clarity of the items within this section and make it easy to understand at a glance. This also allows the users to direct their attention to a particular section they a more interested in with the bold text. i have also added two videos for users to watch.
 
 ### *Learn to Grow*
 This page includes the most information and so I wanted to include icons alongside text. The title is an H2 element, this is followed by a concise review of how to grow. The review is built using ul and li elements with icons from FontAwesome. 
 There is then a separate div that contains two videos of information regarding the text provided, 
+![Top Image](docs/lets-grow.png)
+![Top Image](docs/basics-of-growing.png)
 
 
 ### *Inspirations*
 
 This is a dropdown menu linking the users to the official websites where i gathered alot of my information, i went for the same colours and wanted to make it so the user can visit any of the websites without losing this site by using "target:_blank".
+![Inspirations](docs/inspirations.png)
 
 ### *Help Us Grow*
 This is a signup form that will allow the user to sign up for Living Life On The Veg's to become a member. There is an H2 providing information regarding the form and an animation with leaves falling along with a boy on a bicycle, The form uses 2 elements, 1 text input and a password input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
+![Top Image](docs/signup.png)
 
 ---
 ## Technologies Used 
@@ -145,3 +146,34 @@ This is a signup form that will allow the user to sign up for Living Life On The
     - Used to covert files to PNG's in order to fit and remove backgrounds.
 ---
 
+## User Stories
+Health Section
+---
+- I liked the idea from the 'Love Running' section so i incorperated my own version and also involved bootstrap.
+---
+![Health Section](docs/health.png)
+---
+Animation
+---
+- I wanted to add animation as i felt the site seem abit bland and boring. i got my code ideas from tiktok and also made it my own.
+---
+![Animation](docs/animation.png)
+---
+Learning To Grow
+---
+- I wanted to add this as i felt it would be helpful for users who wanted to embark on this journey.
+---
+![Learning To Grow](docs/pesticides.png)
+---
+Sharing Your Stories
+---
+- I wanted to add this as i felt it would be good to see other users stories and gather information in order to expand my knowledge and bring users together.
+---
+![Sharing Stories](docs/share.png)
+---
+My Garden
+---
+- This is a Photo of my garden to as i felt it related to my theme.
+---
+![My Garden](docs/top-image.png)
+----
