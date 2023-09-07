@@ -144,36 +144,69 @@ This is a signup form that will allow the user to sign up for Living Life On The
     - Used to edited my images in order to fit and remove backgrounds.
 - [Adobe](https://www.adobe.com)
     - Used to covert files to PNG's in order to fit and remove backgrounds.
----
+
 
 ## User Stories
-Health Section
----
+
+### Health Section
+
 - I liked the idea from the 'Love Running' section so i incorperated my own version and also involved bootstrap.
----
+
 ![Health Section](docs/health.png)
 ---
-Animation
----
+### Animation
+
 - I wanted to add animation as i felt the site seem abit bland and boring. i got my code ideas from tiktok and also made it my own.
----
+
 ![Animation](docs/animation.png)
+
+### Learning To Grow
 ---
-Learning To Grow
----
-- I wanted to add this as i felt it would be helpful for users who wanted to embark on this journey.
----
+- I wanted to add this section as i felt it would be helpful for users who wanted to embark on this journey.
+
 ![Learning To Grow](docs/pesticides.png)
 ---
-Sharing Your Stories
----
+### Sharing Your Stories
+
 - I wanted to add this as i felt it would be good to see other users stories and gather information in order to expand my knowledge and bring users together.
----
+
 ![Sharing Stories](docs/share.png)
 ---
-My Garden
----
-- This is a Photo of my garden to as i felt it related to my theme.
----
+### My Garden
+
+- This is a Photo of my garden i used this as my top image as i felt it related to my theme.
+
 ![My Garden](docs/top-image.png)
 ----
+
+## Validator Testing 
+
+- HTML
+  - No errors were returned when passing the home page through the official ![w3c validator](docs/validator-homepage.png)
+  - No errors were returned when passing the lets grow page through the official ![w3c validator](docs/validator-lets-grow.png)
+  - No errors were returned when passing the human body page through the official ![w3c validator](docs/validator-humanbody.png)
+ 
+- CSS
+  - No errors were found when passing the css code by direct imput through the official [(jigsaw) validator](http://jigsaw.w3.org/css-validator/check/referer)
+    
+![w3c css validated](docs/validator-css.png)
+
+
+## Unfixed Bugs
+
+There are no unfixed bugs that am I am aware of. Testing has been very thorough throughout the build.
+
+## Deployment 
+
+- The site was deployed to GitHub pages. The steps to deploy were as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - Then select Pages from the left hand menu list.
+  - From the Source section drop-down menu, select Deploy from a branch.
+  - From the Branch section drop-down menus select main and /root then click save.
+
+The live link can be found here - [Living Life On The Veg](https://rickylambert87.github.io/Living-Life-On-The-Veg/) 
+
+The Github repository can be found here - [RickyLambert87/Living-Life-On-The-Veg](https://github.com/RickyLambert87/Living-Life-On-The-Veg)
+
+
+
