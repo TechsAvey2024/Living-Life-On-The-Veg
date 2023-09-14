@@ -496,6 +496,12 @@ background: #82b74b;
 		height: 100px;
 		margin-bottom: 10px;
 	  }
+	  .video-section {
+		width: 90%;
+	  }
+	  .text-center {
+		width: 90%;
+	  }
 	  .boy {
 		display: none;
 	  }
