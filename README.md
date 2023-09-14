@@ -101,7 +101,7 @@ This is a dropdown menu linking the users to the official websites where i gathe
 ![Inspirations](docs/inspirations.png)
 
 ### *Help Us Grow*
-This is a signup form that will allow the user to sign up for Living Life On The Veg's to become a member. There is an H2 providing information regarding the form and an animation with leaves falling along with a boy on a bicycle, The form uses 2 elements, 1 text input and a password input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
+This is a transparent signup form that will allow the user to sign up for Living Life On The Veg's to become a member. There is an H2 providing information regarding the form and an animation with leaves falling along with a boy on a bicycle, The form uses 2 elements, 1 text input and a password input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
 ![Top Image](docs/signup.png)
 
 ---
