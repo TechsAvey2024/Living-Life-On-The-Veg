@@ -1,4 +1,7 @@
 # living life on the veg
+The live link can be found here - [Living Life On The Veg](https://rickylambert87.github.io/Living-Life-On-The-Veg/) 
+
+The Github repository can be found here - [RickyLambert87](https://github.com/RickyLambert87/Living-Life-On-The-Veg)
 
 
 
@@ -197,9 +200,6 @@ There are no unfixed bugs that am I am aware of. Testing has been very thorough 
   - From the Source section drop-down menu, select Deploy from a branch.
   - From the Branch section drop-down menus select main and /root then click save.
 
-The live link can be found here - [Living Life On The Veg](https://rickylambert87.github.io/Living-Life-On-The-Veg/) 
-
-The Github repository can be found here - [RickyLambert87](https://github.com/RickyLambert87/Living-Life-On-The-Veg)
 
 ---
 
