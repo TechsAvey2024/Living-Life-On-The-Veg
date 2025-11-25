@@ -1,4 +1,4 @@
-# living life on the veg
+# Living Life On The Veg!
 The live link can be found here - [Living Life On The Veg](https://TechsAvey2024.github.io/Living-Life-On-The-Veg/) 
 
 The Github repository can be found here - [RickyLambert87](https://github.com/TechsAvey2024/Living-Life-On-The-Veg)
